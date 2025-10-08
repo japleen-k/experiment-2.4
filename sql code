@@ -1,0 +1,22 @@
+-- Employee table for Part a
+CREATE TABLE Employee (
+    EmpID INT PRIMARY KEY,
+    Name VARCHAR(100),
+    Salary DOUBLE
+);
+
+-- Product table for Part b
+CREATE TABLE Product (
+    ProductID INT PRIMARY KEY,
+    ProductName VARCHAR(100),
+    Price DOUBLE,
+    Quantity INT
+);
+
+-- Student table for Part c
+CREATE TABLE Student (
+    StudentID INT PRIMARY KEY,
+    Name VARCHAR(100),
+    Department VARCHAR(50),
+    Marks DOUBLE
+);
